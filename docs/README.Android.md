@@ -109,8 +109,10 @@ To be able to build Kodi and the libraries it depends on for the Android platfor
 
 Change to Android NDK tools directory:
 ```
-cd $HOME/android-tools/android-ndk-r18b/build/tools
+cd $HOME/android-tools/android-ndk-r18/build/tools
 ```
+
+**NOTE:** Make sure that the directory is named android-ndk-r18
 
 
 Set up the arm toolchain (Khadas):
