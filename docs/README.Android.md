@@ -34,17 +34,17 @@ and yet another one
 
 **Example:** Clone Kodi's current master branch:
 ```
-git clone https://github.com/xbmc/xbmc kodi
+git clone https://github.com/Foutchy/xbmc kodi
 ```
 
 Commands that contain strings enclosed in angle brackets denote something you need to change to suit your needs.
 ```
-git clone -b <branch-name> https://github.com/xbmc/xbmc kodi
+git clone -b <branch-name> https://github.com/Foutchy/xbmc kodi
 ```
 
-**Example:** Clone Kodi's current Krypton branch:
+**Example:** Clone Kodi's current Leia branch:
 ```
-git clone -b Krypton https://github.com/xbmc/xbmc kodi
+git clone -b Krypton https://github.com/Foutchy/xbmc kodi
 ```
 
 Several different strategies are used to draw your attention to certain pieces of information. In order of how critical the information is, these items are marked as a note, tip, or warning. For example:
