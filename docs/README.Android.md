@@ -69,6 +69,12 @@ Building Kodi for Android requires Android NDK revision 18. For the SDK just use
 
 * **[Android SDK](https://developer.android.com/studio/index.html)** (Look for `Get just the command line tools`)
 * **[Android NDK](https://developer.android.com/ndk/downloads/index.html)**
+* **[Java 8 Oracle]
+```
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt update
+sudo apt install sudo apt install oracle-java8-set-default
+```
 
 ### 3.1. Extract Android SDK and NDK
 Create needed directories:
