@@ -109,7 +109,7 @@ To be able to build Kodi and the libraries it depends on for the Android platfor
 
 Change to Android NDK tools directory:
 ```
-cd $HOME/android-tools/android-ndk-r18/build/tools
+cd $HOME/android-tools/android-ndk-r18b/build/tools
 ```
 
 Set up the aarch64 toolchain:
