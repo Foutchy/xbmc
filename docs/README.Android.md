@@ -112,22 +112,24 @@ Change to Android NDK tools directory:
 cd $HOME/android-tools/android-ndk-r18b/build/tools
 ```
 
-Set up the aarch64 toolchain:
-```
-./make-standalone-toolchain.sh --install-dir=$HOME/android-tools/aarch64-linux-android-vanilla/android-21 --platform=android-21 --toolchain=aarch64-linux-android
-```
 
-Set up the arm toolchain:
+Set up the arm toolchain (Khadas):
+
+**NOTE:** You only need the toolchain for your target architecture but toolchains are installed in different directories and will not interfere with each other.
+
 ```
 ./make-standalone-toolchain.sh --install-dir=$HOME/android-tools/arm-linux-androideabi-vanilla/android-21 --platform=android-21 --toolchain=arm-linux-androideabi
 ```
-
+(Alternatively for linux)
 Set up the x86 toolchain:
 ```
 ./make-standalone-toolchain.sh --install-dir=$HOME/android-tools/x86-linux-android-vanilla/android-21 --platform=android-21 --toolchain=x86-linux-android
 ```
-
-**NOTE:** You only need the toolchain for your target architecture but toolchains are installed in different directories and will not interfere with each other.
+(Skip)
+Set up the aarch64 toolchain:
+```
+./make-standalone-toolchain.sh --install-dir=$HOME/android-tools/aarch64-linux-android-vanilla/android-21 --platform=android-21 --toolchain=aarch64-linux-android
+```
 
 ### 3.4. Create a key to sign debug APKs
 All packages must be signed. The following command will generate a self-signed debug key. If the result is a cryptic error, it probably just means a debug key already existed.
@@ -155,7 +157,7 @@ cd $HOME
 
 Clone Kodi's current master branch:
 ```
-git clone https://github.com/xbmc/xbmc kodi
+git clone https://github.com/Foutchy/xbmc kodi
 ```
 
 ## 5. Build tools and dependencies
